@@ -1,6 +1,6 @@
-package com.gotohigh.springboot.web;
+package com.gotohigh.webservice;
 
-import com.gotohigh.springboot.web.dto.HelloResponseDto;
+import com.gotohigh.webservice.dto.HelloResponseDto;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

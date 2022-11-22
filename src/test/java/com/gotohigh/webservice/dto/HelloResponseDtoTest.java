@@ -1,4 +1,4 @@
-package com.gotohigh.springboot.web.dto;
+package com.gotohigh.webservice.dto;
 
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;

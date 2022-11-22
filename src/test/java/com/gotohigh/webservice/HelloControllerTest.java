@@ -1,4 +1,4 @@
-package com.gotohigh.springboot.web;
+package com.gotohigh.webservice;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

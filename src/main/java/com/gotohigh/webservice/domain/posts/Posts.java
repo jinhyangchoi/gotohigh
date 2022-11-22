@@ -1,17 +1,21 @@
-package com.gotohigh.springboot.domain.posts;
+package com.gotohigh.webservice.domain.posts;
 
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-
-@Getter
-@NoArgsConstructor
-@Entity
+/*
+*
+*  @Entity 클래스는 절대 Setter 메소드를 만들지 않는다.
+*
+* */
+@Getter             //lombok 어노테이션
+@NoArgsConstructor  //lombok 어노테이션
+@Entity             //JPA 어노테이션
 public class Posts {
 
-    @Id
+    @Id     //해당 테이블의 PK
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 

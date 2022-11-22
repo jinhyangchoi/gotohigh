@@ -1,4 +1,4 @@
-package com.gotohigh.springboot.web.dto;
+package com.gotohigh.webservice.dto;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
